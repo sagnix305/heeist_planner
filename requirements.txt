@@ -1,0 +1,2 @@
+# Heist Planner uses only Python standard-library modules.
+# Tkinter is normally included with Python on Windows.
