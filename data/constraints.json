@@ -1,0 +1,164 @@
+{
+    "levels": {
+        "1": {
+            "tasks": [
+                "Security",
+                "Vault",
+                "Cameras",
+                "Escape",
+                "Disguise"
+            ],
+            "team_members": [
+                "Hacker",
+                "Safecracker",
+                "Driver",
+                "Disguise Expert",
+                "Security Expert"
+            ],
+            "allowed_assignments": {
+                "Security": ["Security Expert"],
+                "Vault": ["Safecracker"],
+                "Cameras": ["Hacker"],
+                "Escape": ["Driver"],
+                "Disguise": ["Disguise Expert"]
+            },
+            "all_different": true,
+            "rules": [
+                "The Security Expert must handle Security.",
+                "The Safecracker must open the Vault.",
+                "The Hacker must disable the Cameras.",
+                "The Driver must handle the Escape route.",
+                "The Disguise Expert must prepare the Disguise.",
+                "One team member cannot perform two tasks."
+            ]
+        },
+        "2": {
+            "tasks": [
+                "Alarm System",
+                "Vault",
+                "Cameras",
+                "Escape",
+                "Disguise"
+            ],
+            "team_members": [
+                "Hacker",
+                "Safecracker",
+                "Driver",
+                "Disguise Expert",
+                "Security Expert"
+            ],
+            "allowed_assignments": {
+                "Alarm System": ["Hacker"],
+                "Vault": ["Safecracker"],
+                "Cameras": ["Security Expert"],
+                "Escape": ["Driver"],
+                "Disguise": ["Disguise Expert"]
+            },
+            "all_different": true,
+            "rules": [
+                "The Hacker must disable the bank alarm system.",
+                "The Safecracker must open the bank vault.",
+                "The Security Expert must monitor the cameras.",
+                "The Driver must handle the escape vehicle.",
+                "The Disguise Expert must prepare the disguise.",
+                "One team member cannot perform two tasks."
+            ]
+        },
+        "3": {
+            "tasks": [
+                "Security",
+                "Vault",
+                "Surveillance",
+                "Getaway",
+                "Cover Identity"
+            ],
+            "team_members": [
+                "Hacker",
+                "Safecracker",
+                "Driver",
+                "Disguise Expert",
+                "Security Expert"
+            ],
+            "allowed_assignments": {
+                "Security": ["Security Expert"],
+                "Vault": ["Safecracker"],
+                "Surveillance": ["Hacker"],
+                "Getaway": ["Driver"],
+                "Cover Identity": ["Disguise Expert"]
+            },
+            "all_different": true,
+            "rules": [
+                "The Security Expert must manage casino security.",
+                "The Safecracker must open the hidden vault.",
+                "The Hacker must bypass surveillance.",
+                "The Driver must arrange the getaway.",
+                "The Disguise Expert must create a cover identity.",
+                "One team member cannot perform two tasks."
+            ]
+        },
+        "4": {
+            "tasks": [
+                "Laser Grid",
+                "Vault",
+                "Guard Patrol",
+                "Escape",
+                "Disguise"
+            ],
+            "team_members": [
+                "Hacker",
+                "Safecracker",
+                "Driver",
+                "Disguise Expert",
+                "Security Expert"
+            ],
+            "allowed_assignments": {
+                "Laser Grid": ["Hacker"],
+                "Vault": ["Safecracker"],
+                "Guard Patrol": ["Security Expert"],
+                "Escape": ["Driver"],
+                "Disguise": ["Disguise Expert"]
+            },
+            "all_different": true,
+            "rules": [
+                "The Hacker must deactivate the laser grid.",
+                "The Safecracker must open the diamond vault.",
+                "The Security Expert must track guard patrols.",
+                "The Driver must prepare the escape route.",
+                "The Disguise Expert must prepare the disguise.",
+                "One team member cannot perform two tasks."
+            ]
+        },
+        "5": {
+            "tasks": [
+                "Security Network",
+                "Main Vault",
+                "Guards",
+                "Evacuation",
+                "Access Cover"
+            ],
+            "team_members": [
+                "Hacker",
+                "Safecracker",
+                "Driver",
+                "Disguise Expert",
+                "Security Expert"
+            ],
+            "allowed_assignments": {
+                "Security Network": ["Hacker"],
+                "Main Vault": ["Safecracker"],
+                "Guards": ["Security Expert"],
+                "Evacuation": ["Driver"],
+                "Access Cover": ["Disguise Expert"]
+            },
+            "all_different": true,
+            "rules": [
+                "The Hacker must control the security network.",
+                "The Safecracker must open the main vault.",
+                "The Security Expert must handle the guards.",
+                "The Driver must manage evacuation.",
+                "The Disguise Expert must create the access cover.",
+                "One team member cannot perform two tasks."
+            ]
+        }
+    }
+}

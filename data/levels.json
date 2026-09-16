@@ -1,0 +1,34 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "name": "The Museum Heist",
+      "description": "Recover the royal diamond from the museum without alerting security.",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 2,
+      "name": "The Bank Heist",
+      "description": "Break into the city bank and escape with the encrypted vault key.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 3,
+      "name": "The Casino Job",
+      "description": "Infiltrate the casino, bypass surveillance, and retrieve the owner’s ledger.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 4,
+      "name": "The Diamond Vault",
+      "description": "Enter a high-security vault and secure the rare diamond collection.",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 5,
+      "name": "Maximum Security Facility",
+      "description": "Plan the final operation against the city’s most heavily guarded facility.",
+      "difficulty": "Expert"
+    }
+  ]
+}
